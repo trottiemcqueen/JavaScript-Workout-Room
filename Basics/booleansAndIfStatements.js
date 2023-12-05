@@ -10,9 +10,13 @@ console.log(typeof true);
       console.log(7 > 12 - 4);
 
 // IF STATEMENTS
+      //If you can drive example
+  let age = 19;
 
-  if (false) {
-    console.log('hello')
-  }else {
+//More than one conditional is allowed
+  if (age >= 18) {//If more than one line of code, use {}, just one line - optional
+    console.log('you can drive')
+  } else if (age < 18) {//noticed if you have a conditional in paren(), you need the 'if',
+    //if nothing then just curly braces or just optional to use.
     console.log('see you later')
   };
