@@ -20,3 +20,4 @@ console.log(typeof true);
     //if nothing then just curly braces or just optional to use.
     console.log('see you later')
   };
+  
