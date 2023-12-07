@@ -13,15 +13,29 @@
       2. Compare the moves to get the result.
       3. Display the result. -->
   <p>Rock Paper Scissors</p>
-  <button 
-    const mathRandom = "Math.random()";
-    >Rock</button>
-  <button 
-    const mathRandom = "Math.random()";
-    >Paper</button>
-  <button 
-    const mathRandom = "Math.random()";
-    >Scissors</button>
+  <button onclick="
+    const randomNumber = Math.random();
+      //I'm focused more on structure of code rather than inline coding
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      const computerMove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      const computerMove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      const computerMove = 'scissors';
+    }
+    ">Rock
+    </button>
+
+
+
+  <button onclick="
+    randomNumber;
+    ">Paper</button>
+
+  <button onclick="
+    randomNumber;
+    ">Scissors</button>
+  
 
 
   <script src="rockpaperscissors.js"></script>
