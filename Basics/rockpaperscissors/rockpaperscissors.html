@@ -27,10 +27,12 @@
       computerMove = 'scissors';
     }
 
-    //console.log(computerMove);
-
+      //  THE RESULT - displayMove
     let displayMove = '';
+
+
     //How computer compare 
+
     if (computerMove === 'rock') {
       displayMove = 'A tie.';
     } else if (computerMove === 'paper') {
@@ -44,14 +46,61 @@
     ">Rock
     </button>
 
-
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
   <button onclick="
     randomNumber;
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      computerMove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      computerMove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      computerMove = 'scissors';
+    }
+
+    
+
+    
+    //How computer compare 
+    if (computerMove === 'rock') {
+      displayMove = 'You Win';
+    } else if (computerMove === 'paper') {
+      displayMove = 'A Tie';
+    } else if (computerMove === 'scissors') {
+      displayMove = 'You Lose';
+    }
+
+    //How to display the result 
+      alert(`You picked Paper. Computer picked ${computerMove}. ${displayMove}.`);
     ">Paper</button>
 
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
   <button onclick="
     randomNumber;
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      computerMove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      computerMove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      computerMove = 'scissors';
+    }
+
+    
+
+    
+    //How computer compare 
+    if (computerMove === 'rock') {
+      displayMove = 'You Lose';
+    } else if (computerMove === 'paper') {
+      displayMove = 'You Win';
+    } else if (computerMove === 'scissors') {
+      displayMove = 'A Tie';
+    }
+
+    //How to display the result 
+      alert(`You picked Scissors. Computer picked ${computerMove}. ${displayMove}.`);
     ">Scissors</button>
   
 
