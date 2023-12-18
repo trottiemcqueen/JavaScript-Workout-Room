@@ -76,3 +76,51 @@ forLife.forEach(n => {
 console.log(counter)
 console.log(forLife)
 //console.log(i)
+
+//map function method
+let nums = [1,2,3,4,5,6,7,8,9]
+//double each element in the array, then map into a new arr
+
+let doubled = nums.map((n) => n * 2 )
+console.log(nums)
+console.log(doubled)
+
+//filter method
+let posts = [
+  {title: 'post', author: 'trottie'},
+  {title: 'post', author: 'jessica'},
+  {title: 'design', author: 'trottie'},
+  {title: 'post', author: 'amber'}
+]
+
+let workDone = posts.filter((p) => p.author === 'trottie' && p.title === 'post')
+  console.log(workDone)
+
+//reduce method
+let numbers = [12, 34, 78, 99, 98]//<--highest element in an array
+
+let max = numbers.reduce((a,b) => Math.max(a,b), -Infinity)
+  console.log(max)
+
+let numbo = [2, 3, 5, 6, 8, 9]//<-- total amount in an array
+let newNumbo = numbo.reduce((total, currentVal) => total + currentVal)
+
+console.log(newNumbo)
+
+//some method
+let someNums = [1, 4, 15, 78, 5, 6]// test to see -boolean any number in the array
+
+let isGreaterThan10 = someNums.some((n) => n >= 10)
+  console.log(isGreaterThan10)
+
+//every method
+//same as some method but ALL elements instead with a boolean
+
+//find array method
+let stock = [
+  { item: 'ketchup', quantity: 32 },
+  { item: 'ketchup', quantity: 32 },
+  { item: 'ketchup', quantity: 32 },
+  { item: 'ketchup', quantity: 32 },
+  { item: 'ketchup', quantity: 32 }
+]
