@@ -119,8 +119,11 @@ let isGreaterThan10 = someNums.some((n) => n >= 10)
 //find array method
 let stock = [
   { item: 'ketchup', quantity: 32 },
-  { item: 'ketchup', quantity: 32 },
-  { item: 'ketchup', quantity: 32 },
-  { item: 'ketchup', quantity: 32 },
-  { item: 'ketchup', quantity: 32 }
+  { item: 'mustard', quantity: 30 },
+  { item: 'vegetables', quantity: 23 },
+  { item: 'fruit', quantity: 20 },
+  { item: 'chicken', quantity: 39 }
 ]
+
+let findStock = stock.find((n) => n.item === vegetables)
+  console.log(findStock)
