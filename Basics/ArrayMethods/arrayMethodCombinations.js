@@ -32,9 +32,10 @@ class Wizard extends Player {
   }
 }
 
-class Warrior extends Player {
+class Warrior {
   constructor(name, type) {
-    super(name, type)
+    this.name = name;
+    this.type = type;
   }
   intro() {
     console.log(`The name is ${this.name}, I'm a ${this.type}`);
