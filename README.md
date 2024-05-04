@@ -19,6 +19,7 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
     <li>arrayMethodCombination</li>
     <li>arrayMethods(js/html)</li>
     <li>datastructureArrayBuild</li>
+    <li>datastructureMergeSortedArrays</li>
   </ol>
 
 ### Booleans&Ifstatements
