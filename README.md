@@ -13,13 +13,18 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
       2. Compare the moves to get the result.
       3. Display the result. 
 
-### ArrayMethods
+### DataStructuresArrays&Methods
   <ol>
     <li>arrayManipulation(html/js)</li>
     <li>arrayMethodCombination</li>
     <li>arrayMethods(js/html)</li>
     <li>datastructureArrayBuild</li>
     <li>datastructureMergeSortedArrays</li>
+  </ol>
+
+### DataStructuresHashTables
+  <ol>
+    <li>Implement Hash Table(js)</li>
   </ol>
 
 ### Booleans&Ifstatements
