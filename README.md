@@ -27,6 +27,11 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
     <li>Implement Hash Table(js)</li>
   </ol>
 
+### DataStructuresLinkedList
+  <ol>
+    <li>FirstLinkedList(js)</li>
+  </ol>
+
 ### Booleans&Ifstatements
   <ol>
     <li>booleansAndIfStatements(js)</li>
