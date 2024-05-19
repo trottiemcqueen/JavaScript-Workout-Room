@@ -30,6 +30,7 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
 ### DataStructuresLinkedList
   <ol>
     <li>FirstLinkedList(js)</li>
+    <li>DoubleLinkedList(js)</li>
   </ol>
 
 ### Booleans&Ifstatements
