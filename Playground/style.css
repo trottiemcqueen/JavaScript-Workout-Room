@@ -1,0 +1,27 @@
+.incoming {
+  height: 15rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+  width: 50%;
+  background-color: red;
+  color: antiquewhite;
+}
+
+.ready {
+  height: 8rem;
+  border: 1px solid black;
+  margin-left: 1rem;
+  width: 50%;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.incoming h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.ready h3 {
+  display: flex;
+  justify-content: center;
+}
