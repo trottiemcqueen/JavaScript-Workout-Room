@@ -37,6 +37,7 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
   <ol>
     <li>FirstLinkedList(js)</li>
     <li>DoubleLinkedList(js)</li>
+    <li>linkedlistreverse(js)</li>
   </ol>
 
 ### Booleans&Ifstatements
