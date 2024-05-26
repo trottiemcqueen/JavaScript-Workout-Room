@@ -28,6 +28,11 @@
    // }
  // }
 //}
+
+
+// Linked list are low level data structure
+// Advantages: Fast Insertion and Deletion, Ordered, Flexible Size
+// Disadvantages: Slow Lookup and More Memory
 class newNode {
   constructor(value) {
     this.value = value,
@@ -113,6 +118,7 @@ class LinkedList {
       }
       this.head.next = null;
       this.head = first;
+      return this
     }
   }
 
