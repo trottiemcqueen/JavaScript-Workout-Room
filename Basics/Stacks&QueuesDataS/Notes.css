@@ -1,0 +1,12 @@
+.notes {
+  width: 100%;
+  background-color: blanchedalmond;
+  border: black solid 1px;
+}
+
+.commands {
+  width: 100%;
+  background-color: black;
+  border: black solid 1px;
+  color: blanchedalmond;
+}
