@@ -72,7 +72,8 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
 ### Stacks&QueuesDataS
   <ol>
     <li>Notes(html)</li>
-    <li></li>
+    <li>Notes(css)</li>
+    <li>StackExerciseTemplate(js)</li>
   </ol>
 
   <hr>
