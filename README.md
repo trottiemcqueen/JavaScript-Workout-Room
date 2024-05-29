@@ -10,6 +10,7 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
     <li>index.html</li>
     <li>script.js</li>
     <li>style.css</li>
+    <li>TwoSum.js</li>
   </ol>
 
   <hr>
