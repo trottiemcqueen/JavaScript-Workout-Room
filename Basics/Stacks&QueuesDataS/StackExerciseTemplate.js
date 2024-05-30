@@ -48,7 +48,7 @@ class Stack {
 //StackOverflow (pop)
 //Google (peek)   */
 
-//Exercise solution 1
+//Exercise solution 1 as a LINKED LIST
 
 class Node {
   constructor(value) {
@@ -103,3 +103,7 @@ console.log(myStack.pop());
 //Discord
 //ZTM
 //google
+
+
+// Exercise as a Array
+
