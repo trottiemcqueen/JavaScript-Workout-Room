@@ -29,8 +29,18 @@ enqueue(value) {
   return this;
 }
 dequeue() {
-
+  if(!this.first) {
+    return null
   }
+  if (this.first === this.last) {
+    this.last = null;
+  }
+  const holdingPointer = this.first;
+  this.first = this.first.next;
+  this.length--;
+  return this;//holdingPointer;
+  }
+  //isEmpty;
 }
 
 const myQueue = new Queue();
