@@ -77,6 +77,12 @@ Everything JS where I get my hands dirty, and work on my craft (build, experimen
     <li>StackExerciseTemplate(js)</li>
   </ol>
 
+### DataStrucTrees
+  <ol>
+    <li>introandnotes(html)</li>
+    <li>binarytree(js)</li>
+  </ol>
+
   <hr>
 
 ### Hackerrank
